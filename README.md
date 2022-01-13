@@ -8,7 +8,7 @@ The project contains an example of a sidebar component and grid component. Custo
 
 ## Example
 
-![project image](project.jpg)
+![project image](project.JPG)
 
 ## References
 

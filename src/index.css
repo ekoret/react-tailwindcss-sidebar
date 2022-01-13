@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .box {
+    @apply w-32 h-32 bg-teal-400 shadow-lg rounded-lg hover:rotate-12 hover:opacity-60 hover:scale-110 transition-all ease-in-out duration-300;
+  }
+
+  .nav-link {
+    @apply flex p-4 rounded-lg cursor-pointer hover:bg-teal-600 transition-all ease-in-out duration-300;
+  }
+
+  .floating-button {
+    @apply h-16 w-16 bg-teal-600 rounded-full fixed bottom-5 right-5 shadow-lg flex justify-center hover:bg-opacity-60 transition-all duration-300 hover:scale-110 active:bg-opacity-60;
+  }
+}
